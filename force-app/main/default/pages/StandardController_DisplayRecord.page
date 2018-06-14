@@ -1,0 +1,14 @@
+<apex:page standardController="Account" Sidebar="false" showHeader="false">
+
+<apex:outputLink value="{! $Page.standard_DisplayRecord}">I am me!</apex:outputLink>
+<apex:pageBlock title="Account Record Show">
+<apex:pageBlockSection >
+<p>My Name is:-{!Account.Name}</p>
+<H1>my ContactName is-{!Account.Owner.Name}</h1>
+
+</apex:pageBlockSection>
+
+
+</apex:pageBlock>
+  
+</apex:page>
